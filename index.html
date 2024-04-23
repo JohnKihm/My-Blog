@@ -9,7 +9,7 @@
   </head>
   <body class = 'light-mode'>
     <header>
-        <button id = 'light-switch'>☀️</button>
+        <p id = 'light-switch'>☀️</p>
     </header>
     <main>
         <figure>
@@ -17,14 +17,15 @@
         </figure>
         <form>
             <h2>What's on your mind?</h2>
-            <label>Username</label>
-            <input id = 'username'/>
-            <label>Title</label>
-            <input id = 'title'/>
-            <label>Content</label>
+            <label for = 'user-name'>Username</label>
+            <input type = 'text' id = 'user-name'/>
+            <label for = 'title'>Title</label>
+            <input type = 'text' id = 'title'/>
+            <label for = 'content'>Content</label>
             <textarea id = 'content'></textarea>
             <button id = 'submit'>Submit</button>
         </form>
     </main>
+    <script src = 'assets/js/logic.js'></script>
   </body>
 </html>
