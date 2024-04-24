@@ -27,12 +27,19 @@ input, select, option, optgroup, textarea, button, pre, code {
 ol, ul {
   list-style: none;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
 /*End of reset*/
 
 :root {
     --light: #E3DAC9;
     --dark: #322735;
     --border-margin: 8px;
+    --dark-link: #F75590;
+    --light-link: #037971;
 }
 
 * {
@@ -47,12 +54,16 @@ body {
     color: var(--dark);
     background-color: var(--light);
     --border: solid 4px var(--dark);
+    --blog-border: solid 1px var(--dark);
+    --link-color: var(--light-link);
 }
 
 .dark-mode {
     color: var(--light);
     background-color: var(--dark);
     --border: solid 4px var(--light);
+    --blog-border: solid 1px var(--light);
+    --link-color: var(--dark-link);
 }
 
 header {
