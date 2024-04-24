@@ -1,0 +1,31 @@
+main {
+    border-bottom: var(--border);
+    
+}
+
+h1 {
+    font-size: 250%;
+}
+
+#back-button {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    padding: 0.25% 0.5%;
+    border-radius: 5px;
+} 
+
+footer {
+    width: 100%;
+    height: 10%;
+    border-top: var(--border);
+    margin-top: var(--border-margin);
+}
+
+footer ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
