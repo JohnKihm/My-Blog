@@ -7,6 +7,11 @@ h1 {
     font-size: 250%;
 }
 
+.place-holder {
+    text-align: center;
+    margin: 20% 0;
+}
+
 #back-button {
     position: absolute;
     right: 5%;
