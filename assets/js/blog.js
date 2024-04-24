@@ -1,4 +1,5 @@
 const mainEl = document.querySelector('main');
+const backButton = document.querySelector('#back-button');
 
 function buildBlog() {
     const storedPosts = JSON.parse(localStorage.getItem('blogPosts'));
@@ -26,3 +27,7 @@ function buildBlog() {
 }
 
 buildBlog();
+
+backButton.addEventListener('click', function() {
+    window.location.href = 'index.html'
+})

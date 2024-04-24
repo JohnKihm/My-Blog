@@ -21,6 +21,7 @@ function handleSubmit(event) {
     };
     blogPosts.push(newPost);
     localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
+    window.location.href = 'blog.html';
 }
 
 function loadStorage() {
@@ -34,6 +35,5 @@ function loadStorage() {
 }
 
 loadStorage();
-console.log(blogPosts);
 
 submitButton.addEventListener('click', handleSubmit);
