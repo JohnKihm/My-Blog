@@ -56,6 +56,7 @@ body {
     --border: solid 4px var(--dark);
     --blog-border: solid 1px var(--dark);
     --link-color: var(--light-link);
+    --fig: var(--dark-link);
 }
 
 .dark-mode {
@@ -64,6 +65,7 @@ body {
     --border: solid 4px var(--light);
     --blog-border: solid 1px var(--light);
     --link-color: var(--dark-link);
+    --fig: var(--light-link);
 }
 
 header {
@@ -89,4 +91,10 @@ main {
 button {
     color:aliceblue;
     background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+      font-size: 10px;
+  }
 }
