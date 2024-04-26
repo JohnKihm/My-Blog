@@ -73,6 +73,7 @@ header {
     height: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-bottom: var(--border);
     margin-bottom: var(--border-margin);
     padding: 0 2%;
@@ -82,9 +83,12 @@ main {
     border-top: var(--border);
 }
 
+#button-container {
+  display: flex;
+  align-items: center;
+}
+
 #light-switch {
-    position: absolute;
-    right: 2%;
     cursor: pointer;
 }
 

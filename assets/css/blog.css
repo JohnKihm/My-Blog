@@ -7,16 +7,10 @@ h1 {
     font-size: 250%;
 }
 
-.place-holder {
-    text-align: center;
-    margin: 20% 0;
-}
-
 #back-button {
-    position: absolute;
-    right: 5%;
+    margin-right: 2rem;
     cursor: pointer;
-    padding: 0.25% 0.5%;
+    padding: 0.25rem 0.5rem;
     border-radius: 5px;
 } 
 
